@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="ICON" href="/static/img/urpi.png" />
+    <title>Urpi</title>
+    <link rel="stylesheet" href="/static/css/live.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  </head>
+  <body style="background-color:#0E2D2D;">
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="enlace-nav" href="/Menu"><img src="/static/img/urpi.png" width="9%" style="margin-right: 10px;" />Urpi</a>
+      </div>
+    </nav>
+
+
+    <div class="live-container">
+        <img src="{{ url_for('video_feed') }}" />
+      <div class="audio-cont">
+        <audio controls  autoplay>
+            <source src="https://stream-150.zeno.fm/xpgmzbdaf3ttv?zs=upFGbIizR0eazDxWxK00Ew" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+
+
+
+    
+
+
+  </body>
+</html>

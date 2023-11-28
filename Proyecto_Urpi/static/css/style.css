@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url(/static/img/fondos/fond.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.todo-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* texto y boto de radio */
+
+.container-txt{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E9E9E9;
+    margin-right:2rem;
+    
+}
+h1{
+    font-weight: bold;
+
+}
+
+.container-txt p{
+    width: 450px;
+    font-size: 20px;
+    
+}
+
+.btn-comenzar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-purple {
+    background-color: #BE1BA4;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 26px;
+    text-align: center;
+    transition: all 2s;
+}
+
+.btn-purple:hover{
+    background-color: rgb(117, 0, 117);
+    color: white;
+
+} 
+
+
+/* ubicaciones del ellipse de urpi */
+
+.ell{
+    display: flex;
+    margin-top: -260px;
+  
+}
+.ellipse1{
+    z-index: 3;
+    position: relative;
+    left: 180px;
+    top: -250px;
+    width: 230px;
+    animation: float 10s ease-out infinite;
+
+}
+.ellipse2{
+    position: relative;
+    right: 45px;
+    width: 500px;
+    top: -130px;
+    animation: float 8s ease-out infinite;
+    
+}
+.btn-primary{
+    z-index: 4;
+}
+
+.ellipse3{
+    position: relative;
+    left: 350px;
+    top: 300px;
+    z-index:-1 ;
+    animation: float 6s ease-out infinite;
+
+}
+@keyframes float {
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-60px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+.iconos{
+    width: 20rem;
+    height: 40px;
+    position: relative;
+    top: 340px;
+    display: flex;
+    gap: 43px;
+    left: 27rem;
+
+}

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.820), rgba(0, 0, 0, 0.820)), url(/static/img/fondos/fondo_M.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.container_t {
+    display: flex;
+    gap: 100px;
+}
+
+.barra-menu {
+    display: flex;
+    gap: 50px;
+    width: 430px;
+    background-color: #2b2b2b;
+    height: 100%;
+    text-indent: 20px;
+    font-size: 20px;
+    list-style: decimal;
+    color: rgb(243, 227, 198);
+
+}
+
+
+.live-radio {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 980px;
+    background-color: #1f1f1fcb;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: aliceblue;
+
+}
+
+.radio {
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.icon-urpi {
+    width: 210px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+audio {
+    width: 500px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    margin-bottom: 18px;
+}
+
+.btnRegist {
+    width: 200px;
+    border-radius: 8px;
+    background-color: #131616;
+    color: white;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.enlaces-a {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.enlaces-a a {
+    font-size: 15px;
+    color: rgb(219, 219, 219);
+
+}
+
+.radios {
+    display: flex;
+    gap: 50px;
+
+}
+
+.consultaimg {
+    position: absolute;
+    width: 4%;
+    margin-left: 63rem;
+    margin-top: 260px;
+
+}
+
+
+
+
+
+.sub {
+    background-color: rgba(73, 73, 73, 0.678);
+    display: grid;
+    justify-content: center;
+    width: 250px;
+    border-radius: 15px;
+
+
+}
+
+.btnSub {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.b_iconos {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: rgb(202, 201, 201);
+}
+
+.b_iconos i:hover {
+    color: rgb(255, 115, 0);
+}
+
+.email-inp {
+    text-indent: 10px;
+    background: transparent;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid whitesmoke;
+    width: 600px;
+    height: 50px;
+    color: whitesmoke;
+}
+
+.btnSubmit {
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: whitesmoke;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(255, 123, 0);
+
+}
+
+.enlace-nav {
+    font-size: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.titulo-radio {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.rect-dercho {
+    background-image: linear-gradient(135deg, #e9ac41 0, #f0a340 6.25%, #f69940 12.5%, #fb8e42 18.75%, #ff8144 25%, #ff7348 31.25%, #ff624d 37.5%, #ff4f52 43.75%, #ff3858 50%, #fb145f 56.25%, #f50068 62.5%, #ef0073 68.75%, #e6007f 75%, #db008c 81.25%, #ce009a 87.5%, #bf00a8 93.75%, #ac00b7 100%);
+    width: 820px;
+    height: 10px;
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+
+}

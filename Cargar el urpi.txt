@@ -1,0 +1,38 @@
+Primero verificar si tenemos instalado Python
+y tambien pip 
+
+comandos
+pthon --version o py
+pip --version
+
+Paso 2
+
+instalamos flask
+
+pip install flask
+
+pip install pyodbc
+
+pip install virtualenv
+
+ahora para habilitar la camara ejecutamos otro comando
+
+virtualenv nombre que gustes
+
+
+. \nombre que creaste\Scripts\activate
+
+una vez dentro volveremos a instalar flask, pyodbc
+pip install flask
+
+pip install pyodbc
+
+pip install opencv-contrib-python
+
+una vez realizado ejecuta lo siguiente
+
+python index.py
+
+
+NOTA:
+si demora en cargar en la terminal presiona la tecla enter
